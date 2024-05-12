@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Heming";
+    src: url("src/fonts/heming-variable.ttf");
+    font-family-base: "Oxygen", sans-serif !default;
+  }
+  *{
+    font-family: "Heming";
+  }
+  
