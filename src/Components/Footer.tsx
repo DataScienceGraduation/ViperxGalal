@@ -1,4 +1,4 @@
-import react from 'react'
+// import react from 'react'
 import Dropdown from './Dropdown';
 import facebook from '../SVGs/facebook.svg'
 import instagram from '../SVGs/instagram.svg'
