@@ -6,9 +6,9 @@ import Footer from '../src/Components/Footer'
 import Navbar from '../src/Components/Nav'
 
 
-interface Props {
-  children: ReactNode;
-}
+// interface Props {
+//   children: ReactNode;
+// }
 function App() {
   return (
     <><Navbar /><Footer /></>
