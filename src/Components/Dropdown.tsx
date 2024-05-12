@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function Dropdown({ buttonText, links, color }) {
   const [showDropdown, setShowDropdown] = useState(false);
