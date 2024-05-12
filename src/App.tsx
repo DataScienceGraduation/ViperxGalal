@@ -1,6 +1,6 @@
 // import { useState } from 'react'
 import './App.css'
-import { ReactNode } from "react";
+// import { ReactNode } from "react";
 import Footer from '../src/Components/Footer'
 // import Header from '../src/Components/Header'
 import Navbar from '../src/Components/Nav'
