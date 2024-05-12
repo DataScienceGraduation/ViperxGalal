@@ -17,7 +17,7 @@ import bars from '../SVGs/bars.svg'
 
 
   const MenLinks = [
-    { url: '#', text: 'Link1 ' },
+    { url: '#', text: 'Link4 ' },
     { url: '#', text: 'Link2 ' },
     { url: '#', text: 'Link3 ' }
   ];
