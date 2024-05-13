@@ -11,7 +11,7 @@ import Navbar from '../src/Components/Nav'
 function App() {
   return (
     <><Navbar /><Footer /></>
-)
+  )
 }
 export default App
 
