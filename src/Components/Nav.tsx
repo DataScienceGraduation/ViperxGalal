@@ -1,4 +1,5 @@
-import React from "react";
+import react from "react";
+
 import Dropdown from './Dropdown';
 
 import logo from '../Images/image.png'
@@ -85,14 +86,16 @@ export const Nav = () => {
           <img src={cart} alt="Cart icon" />
         </button>
 
-        <button>
-          <a href="Login.html"><img src={profile} alt="Profile Icon" />
-          </a>
-        </button>
+=======
+            <button>
+            <a href="Login.html"><img src={profile} alt="Profile Icon" />
+            </a>
+            </button>
+      
+        </div>
+        {/* !-- END OF UPPER RIGHT OPTIONS  -- */}
+        </nav>
+        )
+    }
+    export default Nav;
 
-      </div>
-      {/* !-- END OF UPPER RIGHT OPTIONS  -- */}
-    </nav>
-  )
-}
-export default Nav;
