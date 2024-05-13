@@ -1,4 +1,4 @@
-// import { useState } from 'react'
+import { useState } from 'react'
 import './App.css'
 // import { ReactNode } from "react";
 import Footer from '../src/Components/Footer'
@@ -12,7 +12,7 @@ import Navbar from '../src/Components/Nav'
 function App() {
   return (
     <><Navbar /><Footer /></>
-)
+  )
 }
 export default App
 

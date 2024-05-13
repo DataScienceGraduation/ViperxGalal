@@ -5,19 +5,20 @@ import instagram from '../SVGs/instagram.svg'
 import twitter from '../SVGs/twitter.svg'
 
 const Categories = [
-    { url: '#', text: 'Men ' },
-    { url: '#', text: 'Women ' },
-    { url: '#', text: 'Unisex ' },
-    { url: '#', text: 'Footwear ' }
+  { url: '#', text: 'Men ' },
+  { url: '#', text: 'Women ' },
+  { url: '#', text: 'Unisex ' },
+  { url: '#', text: 'Footwear ' }
 
-  ];
-  const Orders_Services = [
-    { url: '#', text: 'Help ' },
-    { url: '#', text: 'Shippings ' },
-    { url: '#', text: 'Return Policy  ' },
-    { url: '#', text: 'Storefinder ' },
-    { url: '#', text: 'Size Charts ' }
-  ];
+
+];
+const Orders_Services = [
+  { url: '#', text: 'Help ' },
+  { url: '#', text: 'Shippings ' },
+  { url: '#', text: 'Return Policy  ' },
+  { url: '#', text: 'Storefinder ' },
+  { url: '#', text: 'Size Charts ' }
+];
 
 const Footer = () => {
   return (
@@ -55,16 +56,16 @@ const Footer = () => {
           <b className="bold">Follow Us</b>
           <br />
           <button>
-           <img src={facebook} alt="Facebook Icon" />
+            <img src={facebook} alt="Facebook Icon" />
           </button>
           <br />
           <button>
-          <img src={twitter} alt="Twitter Icon" />
+            <img src={twitter} alt="Twitter Icon" />
 
           </button>
           <br />
           <button>
-          <img src={instagram} alt="Instagram Icon" />
+            <img src={instagram} alt="Instagram Icon" />
 
           </button>
           <br />
@@ -74,22 +75,22 @@ const Footer = () => {
 
       {/* <!-- FOOTER LINKS SMALL SCREEN --> */}
       <div className="md:hidden text-center text-xl">
-        <Dropdown buttonText="Categories" links={Categories} color="white"/>
-        <Dropdown buttonText="Orders & Services" links={Orders_Services}  color="white" />
+        <Dropdown buttonText="Categories" links={Categories} color="white" />
+        <Dropdown buttonText="Orders & Services" links={Orders_Services} color="white" />
         <div className="text-white">
           <b className="bold">Follow Us</b>
           <br />
           <button>
-           <img src={facebook} alt="Facebook Icon" />
+            <img src={facebook} alt="Facebook Icon" />
           </button>
           <br />
           <button>
-          <img src={twitter} alt="Twitter Icon" />
+            <img src={twitter} alt="Twitter Icon" />
 
           </button>
           <br />
           <button>
-          <img src={instagram} alt="Instagram Icon" />
+            <img src={instagram} alt="Instagram Icon" />
 
           </button>
           <br />
